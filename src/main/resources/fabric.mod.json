@@ -6,7 +6,7 @@
   "name": "Minecraft 1.7.10 Memory Fix",
   "description": "Fixes memory retention caused by big-tree generation and Legacy Fabric networking sessions.",
   "authors": [
-    "willt"
+    "molten"
   ],
   "license": "MIT",
   "environment": "*",
