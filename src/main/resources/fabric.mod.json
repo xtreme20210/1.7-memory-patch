@@ -1,32 +1,21 @@
+
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "memoryfix",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Minecraft 1.7.10 Memory Fix",
+  "description": "Fixes memory retention caused by big-tree generation and Legacy Fabric networking sessions.",
   "authors": [
-    "Me!"
+    "willt"
   ],
-  "contact": {
-    "homepage": "https://legacyfabric.net/",
-    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
-  },
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.legacyfabric.example.ExampleMod"
-    ]
-  },
   "mixins": [
     "modid.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.0",
-    "minecraft": "1.7.10"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "minecraft": "1.7.10",
+    "legacy-fabric-networking-api-v1": "*"
   }
 }
