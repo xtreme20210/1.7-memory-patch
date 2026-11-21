@@ -13,9 +13,10 @@
   "mixins": [
     "modid.mixins.json"
   ],
-  "depends": {
-    "fabricloader": ">=0.15.7",
-    "minecraft": "1.7.10",
-    "legacy-fabric-networking-api-v1": "*"
-  }
+
+"depends": {
+  "fabricloader": ">=0.15.7",
+  "minecraft": "1.7.10"
+}
+
 }

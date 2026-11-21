@@ -7,13 +7,12 @@
   "package": "net.legacyfabric.example.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "BigTreeMemoryMixin",
-    "NetworkSessionTrackingMixin",
-    "MinecraftWorldUnloadMixin"
+    "BigTreeMemoryMixin"
   ],
   "injectors": {
     "defaultRequire": 1
   }
 }
+
 
 
